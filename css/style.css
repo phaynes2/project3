@@ -1,0 +1,93 @@
+a:link {
+  color: #99e699;
+}
+a:visited {
+  color: red;
+}
+/* general stuff*/
+body {
+  background:   #003d99;
+  background-size: cover;
+  text-align: center;
+  color:   #99e699;
+  font-family: 'Gentium Book Basic', serif;
+}
+table{
+   background-color: grey;
+   color: #0033cc;
+   margin-left: auto;
+   margin-right: auto;
+   border: 3px solid red ;
+   font-family: inherit;
+}
+th, td{
+  border: 2px solid red;
+  color: #0033cc; 
+  font-size: medium;
+  border-radius: 3px;
+  width: 300px;
+  height:45px;
+  text-align: center; 
+  font-family: inherit;
+
+}
+ol{
+  
+}
+ol li{
+  background: grey;
+  padding: 2px;
+  margin-left: 35px;
+  
+}
+.contentcenter{
+  
+}
+.contentleft{
+  
+}
+.contentright{
+  
+}
+#list1{
+  float: left;
+}
+#list2{
+  float: right;
+}
+#inigo{
+  width:20%;
+  height:20%;
+}
+#computer{
+  width:30%;
+  height:30%;  
+}
+#paolini{
+  width:10%;
+  height:10%;
+}
+#flann{
+  width:9%;
+  height:9%;
+}
+#pierce{
+  width:10%;
+  height:10%;
+}
+#riordan{
+  width:10%;
+  height:10%;
+}
+#weir{
+  width:13%;
+  height:13%;
+}
+#logoAPlus{
+  width:10%;
+  height:10%;
+}
+#vod[
+  width:;
+  height:;
+ }
