@@ -9,23 +9,6 @@ a:visited {
 *{
   box-sizing: border-box;
 }
-.three{
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-}
-.column:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.row {
-  display: flex;
-  float:none;
-}
-.column {
-  flex: 50%;
-}
 #map {
     height: 100%;
   }
@@ -47,13 +30,7 @@ img{
   position:relative;
   object-fit: cover;
 }
-body {
-  background: #003d99;
-  background-size: cover;
-  text-align: center;
-  color: #99e699;
-  font-family: 'Gentium Book Basic', serif;
-}
+
 table{
   background-color: grey;
   color: #0033cc;
@@ -102,7 +79,69 @@ ol li{
   width:10%;
   height:10%;
 }
-#vod{ 
+
+@media screen and (min-width: 400px){
+  #vod{ 
+  width:70%;
+  height: 300px;
+}
+body {
+  background: #9b9d87;
+  background-size: cover;
+  text-align: center;
+  color: #99e699;
+  font-family: 'Gentium Book Basic', serif;
+} 
+}
+@media screen and (min-width: 700px){
+  #vod{ 
   width:90%;
- height: 65%;
+  height: 400px;
+}
+body {
+  background: #0e285e;
+  background-size: cover;
+  text-align: center;
+  color: #99e699;
+  font-family: 'Gentium Book Basic', serif;
+}
+#par{
+  width: 60%;
+  text-align: center;
+  
+}
+}
+@media screen and (min-width: 1000px){
+  body {
+  background: #003d99;
+  background-size: cover;
+  text-align: center;
+  color: #99e699;
+  font-family: 'Gentium Book Basic', serif;
+}
+   #vod{ 
+  width:95%;
+  height: 400px;
+}
+.row {
+  display: flex;
+  float:none;
+}
+.column {
+  flex: 50%;
+}
+  .three{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.column:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cont{
+  background: inherit;
+  text-align: center;
+}
 }
