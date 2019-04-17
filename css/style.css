@@ -25,6 +25,9 @@ a:visited {
 .column {
   flex: 50%;
 }
+ #map {
+    height: 100%;
+  }
 #wrapper {
   width: 850px;
 	height: 600px;
