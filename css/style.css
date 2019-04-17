@@ -1,3 +1,4 @@
+
 a:link {
   color: #99e699;
 }
@@ -25,7 +26,7 @@ a:visited {
 .column {
   flex: 50%;
 }
- #map {
+#map {
     height: 100%;
   }
 #wrapper {
