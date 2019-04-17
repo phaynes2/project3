@@ -25,6 +25,19 @@ a:visited {
 .column {
   flex: 50%;
 }
+#wrapper {
+  width: 850px;
+	height: 600px;
+	background-color: #c00;
+	margin:0 auto;
+	overflow: hidden;
+}
+#canvas {
+	width: 700px;
+	height: 500px;
+	background-color: #ccc;
+	margin: 30px auto;
+}
 img{
   width:90%;
   position:relative;
