@@ -6,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
+	<script src="assets/owl-carousel/owl.carousel.js"></script>
+	<script src="jquery-1.9.1.min.js"></script>
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
   </head>
   <body>
     <section>
@@ -27,11 +30,26 @@
       </ul>
     </div>
     <h2> photos of each author in order </h2>
-    <img src="media/paolini.jpg" alt="Chrisopher Paolini" id= "paolini">
-    <img src="media/flann.jpg" alt="John Flannagan" id= "flann">
-    <img src="media/pierce.jpg" alt="Tamora Pierce" id= "pierce">    
-    <img src="media/riordan.jpg" alt="Rick Riordan" id= "riordan">   
-    <img src="media/weir.jpg" alt="Andy Weir" id= "weir">
+	<script>
+	$(document).ready(function() {
+ 
+	  $("#slider").owlCarousel({
+		loop: true;
+		items: 1;
+		autoplay: true;
+		
+	  });
+	 
+	});
+	</script>
+	
+	<div id="slider" class="owl-carousel">
+    <div><img src="media/paolini.jpg" alt="Chrisopher Paolini" id= "paolini"></div>
+    <div><img src="media/flann.jpg" alt="John Flannagan" id= "flann"></div>
+    <div><img src="media/pierce.jpg" alt="Tamora Pierce" id= "pierce"></div>
+    <div><img src="media/riordan.jpg" alt="Rick Riordan" id= "riordan"></div>   
+    <div><img src="media/weir.jpg" alt="Andy Weir" id= "weir"></div>
+	</div>
     <h2> list of movies you should watch</h2>
     <div class="row">
       <div class="column">
