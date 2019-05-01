@@ -1,22 +1,17 @@
-#paolini{
-  width:10%;
-  height:10%;
+#slideshow{
+  /*Main Container*/
+  max-width:100%;
+  max-height:100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
 }
-#flann{
-  width:9%;
-  height:9%;
-}
-#pierce{
-  width:10%;
-  height:10%;
-}
-#riordan{
-  width:10%;
-  height:10%;
-}
-#weir{
-  width:13%;
-  height:13%;
+.slides{
+  width:20%;
+  height:20%;
+  margin-left:auto;
+  margin-right:auto;
+  display:inline-block;
 }
 
 a:link {
